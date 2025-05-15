@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Books & Stationery Suppliers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        header h1 {
+            font-size: 28px;
+        }
+
+        .contact-top {
+            font-size: 14px;
+            margin-top: 5px;
+            color: #ecf0f1;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            background-image: url('photo.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 120px 20px;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .section {
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        .section h3 {
+            font-size: 32px;
+            margin-bottom: 30px;
+            color: #2c3e50;
+        }
+
+        .cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            width: 300px;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .card h4 {
+            margin-bottom: 10px;
+            color: #34495e;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .footer-contact {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+
+        .btn {
+            background-color: #e67e22;
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            margin-top: 20px;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #d35400;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Book And Stationery HUB</h1>
+            <div class="contact-top">📞 9849965870/  9851238594 | ✉ aayambooks2080@gmail.com</div>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#services">Services</a>
+            <a href="#products">Products</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Your Trusted Partner for Books & Stationery</h2>
+        <p>We provide a wide range of educational, office, and sports supplies with unmatched quality and service.</p>
+        <a href="#contact" class="btn">Get in Touch</a>
+    </section>
+
+    <section id="services" class="section">
+        <h3>Our Services</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="mainstationary.jpg" alt="Bulk Supply">
+                <h4>Bulk Supply</h4>
+                <p>Reliable bulk delivery to schools, offices, and institutions.</p>
+            </div>
+            <div class="card">
+                <img src="Smile-Care-What-Your-Need-Requires-300x240.jpeg" alt="Customized Orders">
+                <h4>Customized Orders</h4>
+                <p>Tailored supplies to meet your unique requirements.</p>
+            </div>
+            <div class="card">
+                <img src="imagereal.jpg" alt="Retail Service">
+                <h4>Retail Services</h4>
+                <p>Visit our store to explore a wide selection of books, stationery, and sports items.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="section">
+        <h3>Our Top Products</h3>
+        <div class="cards">
+            <div class="card">
+                <img src="books.jpg" alt="Books">
+                <h4>Books</h4>
+                <p>School books, novels, academic references, and more.</p>
+            </div>
+            <div class="card">
+                <img src="61+SKuWCrqL._AC_UF1000,1000_QL80_.jpg" alt="Stationery">
+                <h4>Stationery</h4>
+                <p>Pens, notebooks, folders, staplers, and office supplies.</p>
+            </div>
+            <div class="card">
+                <img src="images.jpeg" alt="Sports Equipment">
+                <h4>Sports Equipment</h4>
+                <p>Footballs, volleyballs, cones, and other school sports items.</p>
+            </div>
+            <div class="card">
+                <img src="images (1).jpeg" alt="Metal Supplies">
+                <h4>Metal Supplies</h4>
+                <p>Metal rulers, scissors, geometry boxes, and more tools.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h3>Contact Us</h3>
+        <p>Have a question or want to place an order? Reach out to us today. Contact Us today</p>
+        <a href="mailto:info@booknest.com" class="btn">Thank You For choosing Us</a>
+    </section>
+
+    <footer>
+        <p>&copy; AayamBooks. All rights reserved.</p>
+        <div class="footer-contact">📞 +977-9849965870/ 9851238594 | ✉ aayambooks2080@gmail.com.com</div>
+    </footer>
+</body>
+
+</html>
